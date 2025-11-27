@@ -5,3 +5,11 @@ Goals:
 - Stable Ubuntu LTS base.
 - Minimal packages.
 - Non-root runtime user.
+
+## Status
+Supporting infra (active) — base layer for service Dockerfiles.
+
+## Build/Test
+```bash
+docker build -t unison-os:dev .
+```
